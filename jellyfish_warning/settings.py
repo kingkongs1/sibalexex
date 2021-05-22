@@ -24,7 +24,10 @@ SECRET_KEY = '5c*2^5v1o8@v64d50q_43nwi(&@smq*uwt-4^q&gcg1r^9#_u@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*',
+    'bkjtest.azurewebsites.net',
+    '168.126.63.1'
+]
 
 # Application definition
 
